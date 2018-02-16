@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors",
+    "start": "webpack-dev-server --progress --profile --colors --watch --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aspnet-prerendering": "^3.0.1",
+    "aspnet-webpack": "^2.0.1",
+    "aspnet-webpack-react": "^3.0.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-redux": "^5.0.6",
+    "webpack": "^3.10.0",
+    "webpack-aspnet-middleware": "^2.2.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-server": "^2.10.0",
+    "webpack-hot-middleware": "^2.21.0"
+  },
+  "devDependencies": {
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-notifier": "^1.5.0"
+  }
+}
