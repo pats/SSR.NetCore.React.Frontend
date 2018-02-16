@@ -4,7 +4,7 @@ import {HelloMessage} from './hello-message';
 
 
 const renderApp = () => {
-	ReactDOM.render(<HelloMessage message="2"/>, document.getElementById('react-app'));
+	ReactDOM.render(<HelloMessage message="Hello message from client"/>, document.getElementById('react-client-app'));
 }
 
 renderApp();

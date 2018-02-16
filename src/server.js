@@ -5,7 +5,7 @@ import {renderToString} from 'react-dom/server'
 
 export default createServerRenderer((params) => {
 	return new Promise(function (resolve, reject) {
-		const result = renderToString(<HelloMessage message="aaa21" />);
+		const result = renderToString(<HelloMessage message="Hello message from SSR" />);
 		resolve({html: result});
 	});
 });
