@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ssr-net-core-react-frontend
+  description: null
+  annotations:
+    github.com/project-slug: pats/SSR.NetCore.React.Frontend
+  tags:
+    - frontend
+    - codesnoop
+    - c4-model
+    - live
+    - team-patsio
+spec:
+  owner: patsio
